@@ -1,0 +1,363 @@
+body{
+	margin: 0px!important;
+}
+
+li{
+	list-style: none;
+	padding: 0px;
+}
+
+a{
+	width: 100%!important;
+	padding: 10px;
+	text-decoration: none;
+	color: #CF4242;
+	font-family: AlexandriaFLF;
+	font-size: 25px;
+	margin: 0px 20px;
+}
+
+label, input, textarea, button{
+	font: 14px Arial, sans-serif;
+	color: #717070;
+	margin-right: 20px;
+	outline-style: none;
+}
+
+	label{
+		font-size: 20px;
+	}
+
+		/*.content > label{
+			width: 62
+		}*/
+
+	input[type="text"]{
+		width: 239px;
+		height: 5px;
+		border-radius: 38px;
+		border: 1px solid #707070;
+		padding: 20px;
+	}
+
+	textarea{
+		width: 500px;
+		height: 150px;
+		resize: none;
+		border-radius: 23px;
+		border-style: 1px solid #707070;
+		padding: 10px!important;
+	}
+
+	button{
+		width: 150px;
+		height: 55px;
+		border-style: none;
+		border-radius: 48px;
+		margin-bottom: 20px;
+		background: #12D3CF;
+		color: #FFF;
+		font-size: 15.5px;
+	}
+
+	#cont_talla > div:nth-child(4) > div{
+		margin-top: 15px!important;
+	}
+
+#img_main{
+	width: 100%;
+	height: 900px;
+	background: url("../recursos/imagenes/B.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+#img_main
+> div{
+	width: 100%;
+	height: 100px;
+}
+
+#flex-1{
+	flex: 1;
+/*	background: orange;
+*/}
+
+#flex-2{
+	flex: 1 1 100%;
+/*	background: green!important;
+*/}
+
+.flex > div{
+	width: 50%;
+	font-family: LIONELLORegular;
+	margin: 0px auto;
+}
+
+.flex:nth-child(odd)
+> div{
+	height: 100%;
+	font-size: 120px;
+	color: #12D3CF;
+}
+
+.flex:nth-child(2)
+> div{
+	background: #FF3131;
+	height: 100px;
+	border-top-right-radius: 279px;
+	border-bottom-left-radius: 279px;
+	color: #FFFFFF;
+	font-size: 50px;
+	display: flex;
+	align-items: center;
+
+}
+
+.flex:nth-child(2)
+> div > li{
+	margin: 0px 100px;
+}
+
+#cont_logo{
+	width: 400px!important;
+	margin: -140px auto;
+}
+
+#cont_logo > img{
+	width: 100%;
+}
+
+#content_tra{
+	width: 90%;
+	margin: 0px auto;
+/*	overflow: hidden;
+*/}
+
+ul li{
+	display: inline-grid;
+}
+
+#content_tra
+nav{
+	margin-top: 140px;
+}
+
+/*GRID*/
+
+#card_main_tra{ 
+	max-width: 90%;
+	margin: 0px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#card_main_tra > div{
+	max-width: 30%;
+	padding: 10px;
+	margin: 5px 5px;
+	flex: 1 1 200px;
+	box-shadow: 0 0 7px rgb(82,82,82,0.5);
+}
+
+#info{
+}
+
+#card_tra{
+	width: 350px!important;
+	height: 50%!important;
+}
+
+#card_tra >  div  > img, #me_encanta >  img{
+	cursor: pointer;
+}
+
+#info > div{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+#info > div > div{
+	width: 48%;
+	margin: 0% 1%;
+}
+
+#info > div > div:nth-child(2),
+#info > div > div:nth-child(1){
+	color: rgb(99,112,126);
+	padding: 5px;
+	font: bold 14px Arial, sans-serif;
+
+}
+
+#info > div > div:nth-child(1){
+	font-size: 14px!important;
+}
+
+#info > div > div:nth-child(2){
+	flex:1;
+	text-align: right;
+	font-size: 13px!important;
+}
+
+#me_encanta{
+	width: 100%;
+	display: flex;
+/*	align-items: center;
+*/	margin-top: 20px;
+}
+
+.info_encanta{
+	width: 50%!important;
+}
+
+#img_encanta{
+	width: 25px!important;
+	cursor: pointer;
+}
+
+#info_encanta{
+	width: 100%!important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.dat_encanta{
+	padding: 5px;
+}
+
+
+/*menu*/
+
+ul > li:nth-child(3){
+	background:#12D3CF;
+	border-radius: 43px;
+}
+
+	ul > li:nth-child(3) > a{
+		color: #FFF!important;
+	}
+
+/*Panel registro*/
+
+#seleccion_img{
+	color: #717070;
+}
+	#seleccion_img > input{
+		font-size: 16px!important;
+	}
+
+		#seleccion_img > label{
+			font-size: 17px!important;
+		}
+
+#img_seleccionadas{
+	width: 80%;
+	max-height: 360px!important;
+	border: 1px solid #707070;
+	overflow-y: scroll;
+	margin-top: 10px!important;
+
+	display: flex;
+	flex-flow: wrap;/*ir añadiendo mas de una linea, cuando llegue al máximo de ancho.*/
+
+}
+
+#img_seleccionadas > img{
+	height: 300px;
+	margin: 3px 3px;
+	z-index: -10;
+	border: 1px solid #707070;
+	flex: 1 1 auto;
+}
+
+
+#cont_talla{
+	margin-top: 30px;
+}
+
+	#talla{
+		width: 80%;
+		display: flex;
+		align-items: center;
+	}
+
+	#content_tra{
+		margin-top: 180px;
+	}
+
+.content{
+	margin-top: 20px;
+}
+
+/*categorias*/
+#categoria_persona{
+	width: 80%;
+	display: flex;
+	align-items: center;
+/*	background: red;
+*/}
+
+	#categoria_persona > div{
+		width: auto;
+		display: flex;
+		align-items: center!important;
+		margin: 10px 0px;
+		margin-bottom: 0px!important;
+/*		background: green;
+*/	}
+
+		#categoria_persona > div > label{
+			height: 100%!important;
+/*			background: orange;
+*/		}
+
+		#categoria_persona > div > input{
+			width: 20px;
+			height: 20px;
+		}
+
+#cont_img{
+	width: 100%!important;
+	height: 35vh;
+	display: flex;
+}
+
+/*#cont_img > img{
+	width: 130px!important;
+}
+*/	
+	.img_prenda{
+		min-width: 100%;
+		background-size:contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		justify-content: center;	
+		cursor: pointer;
+	}
+
+		#cont_img > #img_a{
+			background-image: url(../uploaded_image/ramcruz1993@gmail.com/nina/dos_piezas/5bc85071-8914-4e4c-bf77-2a0cee4e913a.jpg);
+		}
+
+
+		#cont_img > #img_b{
+			background-image: url(../uploaded_image/ramcruz1993@gmail.com/dama/completo/A.jpg);
+		}
+
+
+		#cont_img > #img_c{
+			background-image: url(../uploaded_image/ramcruz1993@gmail.com/nina/dos_piezas/6197c51b-6122-44b3-a7ef-6ea64564801b.jpg);
+		}
+
+
+		#cont_img > #img_d{
+			background-image: url(../uploaded_image/ramcruz1993@gmail.com/nina/dos_piezas/5bc85071-8914-4e4c-bf77-2a0cee4e913a.jpg);
+		}

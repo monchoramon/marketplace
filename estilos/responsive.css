@@ -1,0 +1,139 @@
+@media(min-width: 320px) and (max-width: 414px){
+
+	body{
+		padding: 0px!important;
+	}
+
+	#head_main{
+   		width: 100%!important;
+	}
+
+	#content_tra{
+		min-width: 100%!important;
+	}
+
+	#card_main_tra{
+		width: 100%!important;
+	}
+
+	#card_main_tra > div{
+		min-width: 100%!important;
+	}
+
+	#img_main{
+		min-width: 100%!important;
+		height: auto!important;
+	}
+
+	#info > div > div:nth-child(1){
+		font-size: 20px!important;
+	}
+
+	#info > div > div:nth-child(2){
+		font-size: 19px!important;
+	}
+
+	.flex > div{
+		height: auto!important;
+		font-size: 37px!important;
+		color: red!important;
+	}
+
+	#flex-2 > div{
+		height: 50px!important;
+	}
+
+	#flex-2 > div > li{
+		min-width: 90%!important;
+		margin: 0px auto;
+		text-align: center;
+		color: #FFF;
+		font-size: 25px!important;
+	}
+
+	#flex-1, #cont_logo{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#flex-1, #cont_logo{
+		align-items: flex-end;
+	}
+
+	#cont_logo{
+		width: 100%!important;
+		height: 200px;
+		justify-content: center;
+	}
+
+	#cont_logo img{
+		width: 50%!important;
+	}
+
+	/*formulario de registro prendas*/
+
+	.content{
+		display: block;
+	}
+
+		.content *{
+			width: 100%;
+		}
+
+	#seleccion_img > label{
+		width: 100%;
+		margin: 0px!important;
+		font-size: 15px!important;
+	}
+
+	#img_seleccionadas{
+		width: 100%!important;
+		border:none;
+		flex-flow: nowrap;/*ir añadiendo mas de una linea, cuando llegue al máximo de ancho.*/
+		flex-direction: column!important;
+	}
+
+		#img_seleccionadas > img{
+/*			width: 95%;
+*/			width: auto;
+			margin: 4px auto!important;
+		}
+
+	#talla{
+		display: block!important;
+	}
+
+	#cont_talla{
+		padding: 10px;
+	}
+
+
+	#cont_talla > div:nth-child(4) > div{
+		width: 100%!important;
+		margin-top: 15px!important;
+	}
+
+		textarea{
+			padding: 0px!important;
+			margin: 0px!important;
+			border-radius: 0px!important;
+		}
+
+	a{
+		width: auto!important;
+	}
+
+	input[type="radio"]{
+		width: 50px!important;
+	}
+
+
+	#registrar{
+	    margin-top: 60px;
+	}
+
+		#registrar:hover{
+			background: red!important;
+		}
+
+}
